@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mixed Conditionals Info</title>
+
+<style>
+:root{
+    --bg:#f8f6f1;
+    --paper:#ffffff;
+    --ink:#2f2f2f;
+    --line:#c9c3b7;
+
+    --past-present:#b59a56;      /* muted mustard */
+    --present-past:#6f8791;      /* dusty blue-gray */
+
+    --note:#f4eedf;
+    --error:#e6d7cf;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:24px;
+    background:var(--bg);
+    font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    color:var(--ink);
+    line-height:1.45;
+}
+
+.infographic{
+    width:800px;
+    max-width:100%;
+    margin:auto;
+    background:var(--paper);
+    border:2px solid var(--line);
+    border-radius:10px;
+    padding:28px;
+}
+
+h1,h2,h3{
+    margin-top:0;
+    font-weight:700;
+    letter-spacing:.2px;
+}
+
+h1{
+    font-size:2.1rem;
+    margin-bottom:8px;
+}
+
+h2{
+    font-size:1.25rem;
+    border-bottom:1px solid var(--line);
+    padding-bottom:6px;
+    margin-top:28px;
+}
+
+h3{
+    font-size:1rem;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.card{
+    border:1.5px solid var(--line);
+    border-radius:8px;
+    padding:16px;
+    margin-top:14px;
+    background:#fff;
+}
+
+.callout{
+    border:2px solid #d9cfb6;
+    background:var(--note);
+    border-radius:8px;
+    padding:12px 14px;
+    margin-top:12px;
+}
+
+.grid-2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px;
+}
+
+.type-box{
+    border:2px solid;
+    border-radius:10px;
+    padding:14px;
+}
+
+.past-present{
+    border-color:var(--past-present);
+    background:#fbf8ef;
+}
+
+.present-past{
+    border-color:var(--present-past);
+    background:#f5f8fa;
+}
+
+.icon{
+    font-size:1.1rem;
+    margin-right:4px;
+}
+
+ul{
+    margin:8px 0 0;
+    padding-left:18px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:12px;
+    font-size:.95rem;
+}
+
+th,td{
+    border:1px solid var(--line);
+    padding:10px;
+    text-align:left;
+    vertical-align:top;
+}
+
+th{
+    background:#f4f2ec;
+}
+
+.flow{
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.arrow{
+    text-align:center;
+    font-size:1.3rem;
+    color:#777;
+}
+
+.example{
+    border-left:4px solid #b7b7b7;
+    padding-left:12px;
+    margin-top:10px;
+}
+
+.example p{
+    margin:4px 0;
+}
+
+.error-box{
+    border:1.5px solid #cbb5a8;
+    background:var(--error);
+    border-radius:8px;
+    padding:12px;
+    margin-top:10px;
+}
+
+.footer-note{
+    margin-top:20px;
+    font-size:.9rem;
+    color:#666;
+    text-align:center;
+}
+
+.small{
+    font-size:.92rem;
+}
+
+@media(max-width:700px){
+    .grid-2{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="infographic">
+
+    <h1> Mixed Conditionals Info</h1>
+    <p class="subtitle">
+        Understanding situations where a past action affects the present,
+        or a present condition affects the past.
+    </p>
+
+    <!-- DEFINITION -->
+
+    <h2>1. What Are Mixed Conditionals?</h2>
+
+    <div class="card">
+        <p>
+            <strong>Mixed conditionals</strong> combine parts of different
+            conditional structures to connect <strong>two different time periods</strong>.
+        </p>
+
+        <p>
+            They are used when the condition and the result do not happen
+            in the same time frame.
+        </p>
+
+        <div class="callout">
+            <strong> Why use them?</strong><br>
+            To show how a past situation influences the present, or how a
+            present condition influenced a past result.
+        </div>
+    </div>
+
+    <!-- TABLE -->
+
+    <h2>2. Key Differences from Standard Conditionals</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Time Relationship</th>
+                <th>Main Use</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zero Conditional</td>
+                <td>General truth</td>
+                <td>Facts and scientific results</td>
+            </tr>
+            <tr>
+                <td>First Conditional</td>
+                <td>Present → Future</td>
+                <td>Real future possibilities</td>
+            </tr>
+            <tr>
+                <td>Second Conditional</td>
+                <td>Present → Present/Future</td>
+                <td>Hypothetical situations</td>
+            </tr>
+            <tr>
+                <td>Third Conditional</td>
+                <td>Past → Past</td>
+                <td>Imagined past situations</td>
+            </tr>
+            <tr>
+                <td><strong>Mixed Conditional</strong></td>
+                <td><strong>Different time periods</strong></td>
+                <td><strong>Past affects present or present affects past</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- RULES -->
+
+    <h2>3. Formation Rules</h2>
+
+    <div class="grid-2">
+
+        <div class="type-box past-present">
+            <h3> Past → Present</h3>
+
+            <p>
+                <strong>If + Past Perfect</strong><br>
+                <strong>would + base verb</strong>
+            </p>
+
+            <div class="callout small">
+                If I had studied harder,<br>
+                I would have a better job now.
+            </div>
+        </div>
+
+        <div class="type-box present-past">
+            <h3> Present → Past</h3>
+
+            <p>
+                <strong>If + Past Simple</strong><br>
+                <strong>would have + past participle</strong>
+            </p>
+
+            <div class="callout small">
+                If I were more organized,<br>
+                I would have finished earlier yesterday.
+            </div>
+        </div>
+
+    </div>
+
+    <!-- VISUAL SCHEME -->
+
+    <h2>4. Visual Structure</h2>
+
+    <div class="grid-2">
+
+        <div class="type-box past-present">
+            <h3> Past → Present</h3>
+
+            <div class="flow">
+                <div>Past event did not happen</div>
+                <div class="arrow">⬇</div>
+                <div>Different present result today</div>
+            </div>
+
+            <p class="small">
+                Cause in the past → consequence in the present.
+            </p>
+        </div>
+
+        <div class="type-box present-past">
+            <h3> Present → Past</h3>
+
+            <div class="flow">
+                <div>Current condition is different</div>
+                <div class="arrow">⬇</div>
+                <div>Past result would have changed</div>
+            </div>
+
+            <p class="small">
+                Present condition → imagined past outcome.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- EXAMPLES -->
+
+    <h2>5. Examples</h2>
+
+    <div class="card">
+
+        <div class="example">
+            <p><strong>1.</strong> If I had learned English earlier, I would work abroad now.</p>
+            <p class="small">Past decision affects the present situation.</p>
+        </div>
+
+        <div class="example">
+            <p><strong>2.</strong> If she had taken the job, she would be happier today.</p>
+            <p class="small">A past choice changes a present result.</p>
+        </div>
+
+        <div class="example">
+            <p><strong>3.</strong> If I were more confident, I would have spoken during the meeting.</p>
+            <p class="small">A present characteristic influences a past action.</p>
+        </div>
+
+    </div>
+
+    <!-- COMMON MISTAKES -->
+
+    <h2>6. Common Mistakes</h2>
+
+    <div class="error-box">
+        <strong>✗ Wrong:</strong> If I had studied, I would have a better grade yesterday.<br>
+        <strong>✓ Better:</strong> Match the result with the correct time reference.
+    </div>
+
+    <div class="error-box">
+        <strong>✗ Wrong:</strong> If I would study harder...<br>
+        <strong>✓ Correct:</strong> Never use <em>would</em> directly after <em>if</em>.
+    </div>
+
+    <div class="error-box">
+        <strong>✗ Wrong:</strong> Mixing tenses without a reason.<br>
+        <strong>✓ Correct:</strong> Use mixed conditionals only when the condition and result belong to different times.
+    </div>
+
+    <!-- SUMMARY -->
+
+    <h2>7. Quick Reminder ✓</h2>
+
+    <div class="callout">
+        <strong>Past → Present</strong><br>
+        If + Past Perfect → would + base verb
+        <br><br>
+        <strong>Present → Past</strong><br>
+        If + Past Simple → would have + past participle
+    </div>
+
+    <p class="footer-note">
+        Mixed conditionals connect different moments in time and show how one situation affects another.
+    </p>
+
+</div>
+
+</body>
+</html>
+```
